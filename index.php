@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-blue-50">
+<body class="bg-blue-50 font-poppins">
     <div class="flex min-h-screen">
         <!-- Sidebar -->
         <div class="bg-blue-100 flex flex-col p-4 w-64">
