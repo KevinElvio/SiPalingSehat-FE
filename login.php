@@ -43,6 +43,9 @@
             <button class="w-full bg-blue-500 text-white font-semibold py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-300">Login</button>
         </a>
         <div class="text-center mt-4">
+            <a href="pageRegister.php" class="text-sm font-semibold text-blue-600 hover:underline">Belum punya akun? Register</a>
+        </div>
+        <div class="text-center mt-4">
             <a href="#" class="text-sm text-blue-500 hover:underline">Forgot Password?</a>
         </div>
     </div>
