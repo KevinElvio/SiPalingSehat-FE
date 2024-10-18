@@ -14,19 +14,19 @@
     }
 </style>
 
-<body>
+<body class="font-poppins">
     <div class="main" id="main">
         <nav class="flex flex-row justify-between mt-5 px-4 w-full sm:mt-5 sm:px-20">
             <img src="assets/images/Logo.png" alt="" class="w-10 h-10 sm:w-12 sm:h-12">
             <div class="bar flex flex-row justify-center space-x-8 text-sm sm:w-full sm:h-full sm:text-xl">
-                <button class="w-15 h-10 rounded-lg hover:bg-blue-950 sm:w-[192px] sm:h-[70px] sm:ml-1 sm:mr-1">
+                <button class="w-15 h-10 rounded-lg hover:bg-blue-950 sm:w-[192px] sm:h-[40px] sm:ml-1 sm:mr-1">
                     <p class="text-blue-400 h-full flex flex-col items-center justify-center hover:text-white">Beranda</p>
                 </button>
-                <button class="w-15 h-10 rounded-lg hover:bg-blue-950 sm:w-[192px] sm:h-[70px] sm:ml-1 sm:mr-1">
+                <button id="jadwal-button" class="w-15 h-10 rounded-lg hover:bg-blue-950 sm:w-[192px] sm:h-[40px] sm:ml-1 sm:mr-1">
                     <p class="text-blue-400 h-full flex flex-col items-center justify-center hover:text-white">Jadwal Anak</p>
                 </button>
             </div>
-            <button class="profil flex flex-col justify-center mr-5 sm:mr-20">
+            <button class="profil flex flex-col justify-center items-center mr-5 sm:mr-20">
                 <img src="assets/images/profile.jpeg" alt="" class="w-10 h-10 rounded-full sm:w-12 sm:h-12">
                 <p class="text-sm sm:text-xl">rasthian</p>
             </button>
@@ -35,7 +35,7 @@
 
 
 
-        <div class="title1 font-bold text-[32px] sm:text-[40px] px-4 sm:px-20 mb-6">
+        <div class="title1 font-bold text-[20px] sm:text-[30px] px-4 sm:px-20 mb-6">
             Data Anak
         </div>
 
@@ -111,24 +111,24 @@
             </button>
         </div>
 
-        <div class="title2 sm:ml-16  title1 font-bold text-[32px] sm:text-[40px] px-4 mb-2 mt-20">
+        <div id="jadwal-section" class="title2 sm:ml-16  title1 font-bold text-[20px] sm:text-[30px] px-4 mb-2 mt-20">
             Jadwal Makan Anak
         </div>
         <div class="content2 flex flex-col items-center w-full h-screen">
             <div class="main-content2 w-full max-w-[1800px] p-4">
                 <div class="header-bar w-full text-white flex justify-between items-center rounded-t-lg">
                     <div class="list-title-box flex flex-row">
-                        <div class="title-box h-[60px] sm:h-[70px] w-[120px] sm:w-[270px] bg-blue-950 text-white text-lg sm:text-2xl font-medium flex justify-center items-center rounded-t-lg mx-2">
+                        <div class="title-box h-[60px] sm:h-[50px] w-[100px] sm:w-[200px] bg-blue-950 text-white text-lg sm:text-2xl font-medium flex justify-center items-center rounded-t-lg mx-2">
                             Anak 1
                         </div>
-                        <div class="title-box h-[60px] sm:h-[70px] w-[120px] sm:w-[270px] bg-blue-950 text-white text-lg sm:text-2xl font-medium flex justify-center items-center rounded-t-lg mx-2">
+                        <div class="title-box h-[60px] sm:h-[50px] w-[100px] sm:w-[200px] bg-blue-950 text-white text-lg sm:text-2xl font-medium flex justify-center items-center rounded-t-lg mx-2">
                             Anak 2
                         </div>
                     </div>
                 </div>
 
-                <div class="kalender w-full md:w-full h-[400px] md:h-[800px] bg-white shadow-2xl rounded-xl flex flex-col items-center py-1">
-                    <ul class="w-full flex justify-evenly text-lg sm:text-5xl text-gray-400 my-5 sm:my-10">
+                <div class="kalender w-full md:w-[60%] h-[300px] md:h-[675px] bg-white shadow-2xl rounded-xl flex flex-col items-center py-1">
+                    <ul class="w-full flex justify-evenly text-lg sm:text-2xl text-gray-400 my-5 sm:my-10">
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">MON</button>
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">SUN</button>
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">TUE</button>
@@ -137,7 +137,7 @@
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">FRI</button>
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">SAT</button>
                     </ul>
-                    <ul class="w-full flex justify-evenly text-lg sm:text-5xl sm:my-10">
+                    <ul class="w-full flex justify-evenly text-lg sm:text-2xl sm:my-10">
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">18</button>
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">19</button>
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">20</button>
@@ -146,32 +146,32 @@
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">23</button>
                         <button class="focus:outline-none hover:bg-blue-400 rounded-lg hover:text-white transition-colors">24</button>
                     </ul>
-                    <ul class="w-[95%] flex justify-evenly text-sm sm:text-4xl font-medium my-5 sm:my-10">
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
+                    <ul class="w-[95%] flex justify-evenly text-sm sm:text-2xl font-medium my-5 sm:my-10">
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 sm:rounded-xl rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 sm:rounded-xl rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 sm:rounded-xl rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 sm:rounded-xl rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 sm:rounded-xl rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 sm:rounded-xl rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 sm:rounded-xl rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Pagi</button>
                     </ul>
-                    <ul class="w-[95%] flex justify-evenly text-sm sm:text-4xl font-medium my-5 sm:my-10">
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
+                    <ul class="w-[95%] flex justify-evenly text-xs sm:text-2xl font-medium my-5 sm:my-10">
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 rounded-md sm:rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 rounded-md sm:rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 rounded-md sm:rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 rounded-md sm:rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 rounded-md sm:rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 rounded-md sm:rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
+                        <button class="w-10 sm:w-32 h-6 sm:h-12 rounded-md sm:rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Siang</button>
                     </ul>
-                    <ul class="w-[95%] flex justify-evenly text-sm sm:text-4xl font-medium my-5 sm:my-10">
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
-                        <button class="w-10 sm:w-44 h-6 sm:h-16 rounded-xl bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
+                    <ul class="w-[95%] flex justify-evenly text-sm sm:text-2xl font-medium my-5 sm:my-10">
+                        <button class="w-16 sm:w-32 h-6 sm:h-12 sm:rounded-lg  rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
+                        <button class="w-16 sm:w-32 h-6 sm:h-12 sm:rounded-lg  rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
+                        <button class="w-16 sm:w-32 h-6 sm:h-12 sm:rounded-lg  rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
+                        <button class="w-16 sm:w-32 h-6 sm:h-12 sm:rounded-lg  rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
+                        <button class="w-16 sm:w-32 h-6 sm:h-12 sm:rounded-lg  rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
+                        <button class="w-16 sm:w-32 h-6 sm:h-12 sm:rounded-lg  rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
+                        <button class="w-16 sm:w-32 h-6 sm:h-12 sm:rounded-lg  rounded-md bg-orange-100 flex justify-center items-center focus:outline-none hover:bg-blue-400 hover:text-white transition-colors">Malam</button>
                     </ul>
                 </div>
             </div>
@@ -282,6 +282,15 @@
             popup.classList.add('hidden');
             main.classList.remove('hidden');
         });
+  // Scroll to the "jadwal-section" when the jadwal button is clicked
+const jadwalButton = document.getElementById("jadwal-button");
+const jadwalSection = document.getElementById("jadwal-section");
+
+jadwalButton.addEventListener('click', function() {
+    jadwalSection.scrollIntoView({ behavior: "smooth" });
+});
+
+
     </script>
 
 </body>
