@@ -1,2 +1,2 @@
 <?php 
-include("pageHome.php");
+include("LandingPage.php");

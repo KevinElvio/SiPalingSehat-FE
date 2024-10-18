@@ -29,9 +29,6 @@
             </div>
 
             <a href="pageRegister1.php" class="block text-center w-full py-2 mt-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Next</a>
-
-            <!-- <button type="submit"
-                class="w-full py-2 mt-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Next</button> -->
         </form>
     </div>
 </body>
