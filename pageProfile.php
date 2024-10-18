@@ -12,10 +12,12 @@
 
     <div class="menu flex flex-col sm:flex-row ml-6">
         <div id="dropdown" class="absolute h-auto w-full mt-16 mb-60 hidden sm:flex sm:flex-col sm:justify-start sm:w-[20%] sm:h-full sm:my-7 bg-blue-100 font-bold text-white shadow-lg p-4 rounded-lg">
-            <div class="text-xl font-bold text-blue-600 mb-4">SiPaling Sehat</div>
+            <div class="text-xl font-bold text-blue-600 mb-4">SiPalingSehat</div>
             <button class="mb-2 p-2 bg-gray-400 rounded-md text-left hover:bg-blue-300" id="profile-button">Profile</button>
             <button class="mb-2 p-2 bg-gray-400 rounded-md text-left hover:bg-blue-300" id="account-button">Account</button>
-            <button class="mb-2 p-2 bg-red-500 rounded-md text-left hover:bg-red-600 sm:mt-[180%]">Logout</button>
+            <a href="login.php" class="mb-2 p-2 bg-red-500 rounded-md text-left hover:bg-red-600 sm:mt-[180%]">
+                <button >Logout</button>
+            </a>
         </div>
 
         <div class="content1 mt-20 pl-7 sm:ml-[20%] sm:w-full ">
@@ -28,8 +30,8 @@
                     <img src="assets/images/profile.jpeg" class="rounded-full w-64" alt="">
                 </div>
                 <div class="button-sub-content1 w-full flex flex-col items-center sm:flex-row sm:ml-28 gap-4">
-                    <button class="change-pict text-white font-medium w-[80%] sm:w-64 h-8 bg-blue-400 hover:bg-white hover:text-blue-400 flex justify-center items-center my-4 rounded-lg">Change Picture</button>
-                    <button class="change-pict font-medium w-[80%] h-8 sm:w-64 text-red-500 hover:text-white hover:bg-red-500 flex justify-center items-center my-4 rounded-lg">Delete Picture</button>
+                    <button class="change-pict text-white font-medium w-[80%] sm:w-64 h-8 bg-blue-500 hover:bg-blue-400 flex justify-center items-center my-4 rounded-lg">Change Picture</button>
+                    <button class="change-pict font-medium w-[80%] h-8 sm:w-64 text-white bg-red-500 hover:bg-red-400 flex justify-center items-center my-4 rounded-lg">Delete Picture</button>
                 </div>
 
             </div>
@@ -68,13 +70,13 @@
     </div>
 
     <script>
-        // Fungsi untuk toggle dropdown
+    
         function toggleDropdown() {
             const dropdown = document.getElementById("dropdown");
             dropdown.classList.toggle("hidden");
         }
 
-        // Fungsi untuk menampilkan konten berdasarkan tombol yang ditekan
+
         function showContent(contentClass) {
             const content1 = document.querySelector('.content1');
             const content2 = document.querySelector('.content-2');

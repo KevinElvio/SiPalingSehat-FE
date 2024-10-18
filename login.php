@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+<?php include './ui-components/head.php' ?>
 <body class="bg-blue-100 flex items-center justify-center h-screen">
     <div class="bg-white rounded-lg shadow-lg p-8 w-full max-w-sm">
         <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Login</h2>
@@ -44,7 +39,9 @@
             </label>
             <a href="#" class="text-sm text-blue-500 hover:underline">Forgot Password?</a>
         </div>
-        <button class="w-full bg-blue-500 text-white font-semibold py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-300">Login</button>
+        <a href="pageHome.php">
+            <button class="w-full bg-blue-500 text-white font-semibold py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-300">Login</button>
+        </a>
         <div class="text-center mt-4">
             <a href="#" class="text-sm text-blue-500 hover:underline">Forgot Password?</a>
         </div>

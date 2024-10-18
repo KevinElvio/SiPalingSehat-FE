@@ -26,10 +26,12 @@
                     <p class="text-blue-400 h-full flex flex-col items-center justify-center hover:text-white">Jadwal Anak</p>
                 </button>
             </div>
-            <button class="profil flex flex-col justify-center items-center mr-5 sm:mr-20">
-                <img src="assets/images/profile.jpeg" alt="" class="w-10 h-10 rounded-full sm:w-12 sm:h-12">
-                <p class="text-sm sm:text-xl">rasthian</p>
-            </button>
+            <a href="pageProfile.php">
+                <button class="profil flex flex-col justify-center items-center mr-5 sm:mr-20">
+                    <img src="assets/images/profile.jpeg" alt="" class="w-10 h-10 rounded-full sm:w-12 sm:h-12">
+                    <p class="text-sm sm:text-xl">rasthian</p>
+                </button>
+            </a>
 
         </nav>
 
@@ -103,12 +105,12 @@
                     <a href="#">Analisis >></a>
                 </div>
             </div>
-
-            <!-- Add Data Button -->
-            <button class="card1 mx-2 flex flex-col justify-center items-center border-4 border-blue-400 text-blue-400 text-lg sm:text-xl font-bold rounded-tl-3xl rounded-tr-[140px] rounded-bl-3xl rounded-br-3xl h-[300px] sm:h-[330px] w-full sm:w-[14%] max-w-[250px] min-w-[250px]">
-                <img src="assets/images/gg_add.png" alt="">
-                <p>Tambah Data Anak</p>
-            </button>
+            <a href="pageCreateAnak.php">
+                <button class="card1 mx-2 flex flex-col justify-center items-center border-4 border-blue-400 text-blue-400 text-lg sm:text-xl font-bold rounded-tl-3xl rounded-tr-[140px] rounded-bl-3xl rounded-br-3xl h-[300px] sm:h-[330px] w-full sm:w-[14%] max-w-[250px] min-w-[250px]">
+                    <img src="assets/images/gg_add.png" alt="">
+                    <p>Tambah Data Anak</p>
+                </button>
+            </a>
         </div>
 
         <div id="jadwal-section" class="title2 sm:ml-16  title1 font-bold text-[20px] sm:text-[30px] px-4 mb-2 mt-20">
@@ -282,7 +284,7 @@
             popup.classList.add('hidden');
             main.classList.remove('hidden');
         });
-  // Scroll to the "jadwal-section" when the jadwal button is clicked
+  
 const jadwalButton = document.getElementById("jadwal-button");
 const jadwalSection = document.getElementById("jadwal-section");
 

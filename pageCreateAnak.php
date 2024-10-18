@@ -63,7 +63,7 @@
                         placeholder="Masukan Alergi Anak Anda" />
                 </div>
                 <div class="flex justify-end">
-                    <button type="submit" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Analisis</button>
+                    <button type="submit" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded"><a href="pageAnalisisAnak.php">Analisis</a></button>
                 </div>
             </form>
         </div>
