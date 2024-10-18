@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stunting Prevention</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+
+<?php include './ui-components/head.php' ?>
+
 <body class="bg-gray-50">
     <header class="bg-white relative">
         <div class="container mx-auto px-4 xl:max-w-screen-xl flex flex-col lg:flex-row lg:justify-between lg:items-center py-8">
@@ -19,7 +16,7 @@
                         Panduan Lengkap untuk Mencegah <span class="text-blue-500">Stunting</span> dan Mengenali Gejala Dini
                         <span class="text-blue-500">Gizi</span> Buruk pada <span class="text-blue-500">Pertumbuhan Anak</span>
                     </p>
-                    <a href="#" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full text-lg">MULAI</a>
+                    <a href="pageRegister.php" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full text-lg">MULAI</a>
                 </div>
             </div>
             <div class="mt-8 lg:mt-0 lg:ml-8 lg:flex-shrink-0 lg:block hidden">

@@ -35,7 +35,7 @@
 
             <div class="flex justify-between">
                 <a href="pageRegister2.php" class="block text-center w-1/3 py-2 mt-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Previous</a>
-                <a href="#" class="block text-center w-1/3 py-2 mt-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Register</a>
+                <a href="pageHome.php" class="block text-center w-1/3 py-2 mt-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Register</a>
             </div>
 
             <!-- <button type="submit"
