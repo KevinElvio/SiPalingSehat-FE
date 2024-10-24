@@ -69,8 +69,8 @@
                     </ul>
                 </div>
                 <p class="text-sm mt-1">Anak ini sehat dan tidak mengalami stunting, perlu di pertahankan</p>
-                <div class="analisiscard flex flex-row mt-7 justify-end font-bold text-m">
-                    <a href="#">Analisis >></a>
+                <div class="flex flex-row justify-end font-bold text-m hover:text-blue-950">
+                    <a href="pageAnalisisAnak.php">Analisis></a>
                 </div>
             </div>
 
@@ -101,8 +101,8 @@
                     </ul>
                 </div>
                 <p class="text-sm mt-1">Anak ini sehat dan tidak mengalami stunting, perlu di pertahankan</p>
-                <div class="analisiscard flex flex-row mt-7 justify-end font-bold text-m">
-                    <a href="#">Analisis >></a>
+                <div class="flex flex-row justify-end font-bold text-m hover:text-blue-950">
+                    <a href="pageAnalisisAnak1.php">Analisis></a>
                 </div>
             </div>
             <a href="pageCreateAnak.php">
